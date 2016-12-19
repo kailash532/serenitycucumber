@@ -39,10 +39,7 @@ public class FirstScreenPageSteps extends ScenarioSteps{
 	}
 	
 	
-	@Step
-	public void clickonlink(){
-		secscreen.clickonWebdriverLink();
-	}
+	
 	
 
 }

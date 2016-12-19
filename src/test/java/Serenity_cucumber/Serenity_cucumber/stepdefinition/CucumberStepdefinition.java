@@ -101,9 +101,9 @@ public class CucumberStepdefinition {
 		firstscreenpagesteps.EnterText();
 	}
 	
-	@Then("Click on link")
+	/*@Then("Click on link")
 	public void Click_on_Link(){
 		firstscreenpagesteps.clickonlink();
-	}
+	}*/
 	
 }
