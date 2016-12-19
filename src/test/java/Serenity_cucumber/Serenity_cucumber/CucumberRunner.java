@@ -11,8 +11,8 @@ import net.thucydides.core.annotations.Managed;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 		
-		features={"src/test/resource/"}
-		/*tags={"@SystemTest"}*/
+		features={"src/test/resource/"},
+		tags={"@SystemTest"}
 		)
 
 public class CucumberRunner {
