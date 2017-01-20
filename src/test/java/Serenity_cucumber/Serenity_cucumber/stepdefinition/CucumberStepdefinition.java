@@ -33,6 +33,28 @@ public class CucumberStepdefinition {
 	
 	
 	
+	
+	@Given("^Launch the app$")
+	public void user_login_to_the_screen1() throws Throwable {
+		System.out.println("step1****");
+	}
+
+	@When("^get the message$")
+	public void user_in_expected_screen1() throws Throwable {
+		System.out.println("step2****");
+	}
+
+	@Then("^Close the message$")
+	public void check_the_title_of_the_screen1() throws Throwable {
+		System.out.println("step3****");
+	}
+	
+	
+	
+	
+	
+	
+	
 	@Given("^launch the App for ([^\"]*) and ([^\"]*)$")
 	public void launch_the_App_for_State_and(String state,String product) throws Throwable {
 		

@@ -3,7 +3,6 @@ package com.serenity.steps;
 
 import org.junit.*;
 
-import com.gargoylesoftware.htmlunit.javascript.configuration.BrowserName;
 import com.serenity.pages.FirstScreen;
 import com.serenity.pages.SecondScreen;
 

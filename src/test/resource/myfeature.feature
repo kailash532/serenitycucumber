@@ -5,10 +5,10 @@ Feature: login to google
     Given User Launch the App
     Then Google should display
     And Enter text in Text field
-    Then Click on link
+    
 
   Scenario: A scenario is a collection of executable steps of different type1
     Given User Launch the App
     Then google must display
 		And Enter text in Text field
-    Then Click on link
+    

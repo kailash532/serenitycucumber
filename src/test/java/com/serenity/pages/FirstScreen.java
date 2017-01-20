@@ -24,6 +24,8 @@ public class FirstScreen extends PageObject{
 	
 	
 	
+	
+	
 	@FindBy(className="XXXXX")
 	private WebElementFacade classlabel;
 	
@@ -42,7 +44,7 @@ public class FirstScreen extends PageObject{
 	
 	
 	public void openPage(){
-		
+		driver.manage().deleteAllCookies();
 		this.open();
 	}
 	public void setClass(String claname){
