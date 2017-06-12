@@ -8,3 +8,4 @@ Feature: Login screen functionality
     Given user login to the screen
     When user in expected screen
     Then Check the title of the screen
+    

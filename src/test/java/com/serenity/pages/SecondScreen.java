@@ -6,9 +6,9 @@ import java.awt.Robot;
 import java.awt.event.KeyEvent;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-
+import org.openqa.selenium.support.How;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -20,8 +20,8 @@ public class SecondScreen extends PageObject{
 	WebDriver driver;
 	
 	
-	@FindBy(id="lst-ib")
-	private WebElementFacade googleTextfield;
+	@FindBy(how=How.ID,using="lst-ib")
+	private WebElement googleTextfield;
 	
 	
 	

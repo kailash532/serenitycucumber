@@ -110,8 +110,8 @@ public class CucumberStepdefinition {
 		firstscreenpagesteps.VerifyTitle(title );
 	}*/
 
-	@Then("^([^\"]*) must display$")
-	@But("^([^\"]*) should display$")
+	@Then("^\"([^\"]*)\" must display$")
+	@But("^\"([^\"]*)\" should display$")
 	public void google_must_display(String title) throws Throwable {
 		firstscreenpagesteps.VerifyTitle(title);
 	}

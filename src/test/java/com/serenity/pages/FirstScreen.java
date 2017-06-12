@@ -1,12 +1,10 @@
 package com.serenity.pages;
 
-import org.junit.Before;
-import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.FindBys;
+import org.openqa.selenium.support.How;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -19,11 +17,11 @@ public class FirstScreen extends PageObject{
 	WebDriver driver;
 	
 	
-	@FindBy(id="class")
-	private WebElementFacade classname;
+	/*@FindBy(id="class")
+	private WebElementFacade classname;*/
 	
-	
-	
+	@FindBy (how=How.ID, using="class")
+	private WebElement classname;
 	
 	
 	@FindBy(className="XXXXX")
